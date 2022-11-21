@@ -1,5 +1,5 @@
 .form-section {
-  padding: 0 20%;
+  padding: 0 18%;
   margin-top: 50px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .form-text h1 {
-  width: 60%;
+  width: 65%;
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 300;
@@ -101,15 +101,19 @@
   color: #414548;
 }
 
+hr {
+  border: 1px solid #00000000;
+}
+
 @media only screen and (max-width: 992px) {
   .form-section {
-    padding: 50px 10%;
+    padding: 0px 10%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .form-section {
-    padding: 50px 20px;
+    padding: 0px 20px;
   }
 
   .form-container {
@@ -119,6 +123,10 @@
   .form-text p {
     width: 95%;
     margin-bottom: 40px;
+  }
+
+  .form-text h1 {
+    width: 85%;
   }
 
   .form-text,

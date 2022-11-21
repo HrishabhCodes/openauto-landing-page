@@ -1,0 +1,100 @@
+.features-section {
+  padding: 75px 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.feature-container {
+  height: 200px;
+  position: relative;
+}
+
+.feature {
+  position: absolute;
+  width: 75%;
+}
+
+.feature h5 {
+  font-family: "Public Sans";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 101.5%;
+  color: #414548;
+  margin-top: 10px;
+}
+
+.feature p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #61686c;
+  margin-top: 10px;
+}
+
+.live-tracking,
+.payment {
+  border-right: 1px solid #e3e7ec;
+}
+
+.live-tracking,
+.pick-ups {
+  border-bottom: 1px solid #e3e7ec;
+}
+
+.discounts .feature,
+.pick-ups .feature {
+  right: 0;
+}
+
+.payment .feature,
+.discounts .feature {
+  bottom: 0;
+}
+
+@media only screen and (max-width: 758px) {
+  .features-section {
+    padding: 75px 15%;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .features-section {
+    padding: 75px 30px;
+    display: block;
+  }
+
+  .live-tracking,
+  .payment {
+    border: none;
+  }
+
+  .live-tracking,
+  .pick-ups {
+    border: none;
+  }
+
+  .feature-head {
+    display: flex;
+    align-items: center;
+  }
+
+  .feature-head h5 {
+    margin-top: 0;
+  }
+
+  .feature-head img {
+    margin-right: 10px;
+  }
+
+  .feature {
+    position: static;
+    width: 100%;
+  }
+
+  .feature-container {
+    height: 150px;
+  }
+}

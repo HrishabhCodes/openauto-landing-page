@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
   background-color: white;
   border: 1.5px solid #4f535b;

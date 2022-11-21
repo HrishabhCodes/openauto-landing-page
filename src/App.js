@@ -3,6 +3,8 @@ import Form from "./components/Form/Form";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
+import Features from "./components/Features/Features";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Navbar />
       {/* <Hero /> */}
       <Form />
+      <About />
+      <Features />
       <Footer />
     </div>
   );

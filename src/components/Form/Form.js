@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Form.css";
 import ScrollDown from "../../assets/ArrowBottom_icon.svg";
 
 const Form = () => {
+  const formEnd = useRef();
+
+  // const scrollToAbout = () => {
+  //   formEnd.current.scrollIntoView();
+  // };
+
   return (
     <div className="form-section">
       <div className="form-container">
@@ -33,10 +39,14 @@ const Form = () => {
           </button>
         </form>
       </div>
-      <div className="scroll-down">
+      <div
+        onClick={() => formEnd.current.scrollIntoView()}
+        className="scroll-down"
+      >
         <p>About OpenAuto</p>
         <img className="scroll-img" src={ScrollDown} alt="scroll-down" />
       </div>
+      <hr ref={formEnd} />
     </div>
   );
 };
