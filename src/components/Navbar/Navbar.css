@@ -1,0 +1,26 @@
+.navbar {
+  padding: 30px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-btn {
+  width: 153px;
+  height: 40px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f535b;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-btn {
+    display: none;
+  }
+
+  .navbar {
+    padding: 30px 20px;
+  }
+}

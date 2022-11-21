@@ -1,0 +1,30 @@
+.footer {
+  padding: 0 75px;
+  height: 136px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ededed66;
+}
+
+.footer p {
+  font-family: "Public Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161b25;
+  text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .footer {
+    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer p {
+    margin-top: 10px;
+  }
+}

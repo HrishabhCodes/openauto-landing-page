@@ -1,0 +1,128 @@
+.form-section {
+  padding: 0 20%;
+  margin-top: 50px;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+}
+
+.form-text,
+.form {
+  width: 50%;
+}
+
+.form-text h1 {
+  width: 60%;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #414548;
+}
+
+.form-text p {
+  width: 80%;
+  margin-top: 25px;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #161b25;
+}
+
+.form-group {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.form-group > label {
+  position: absolute;
+  padding: 0 10px;
+  top: -17px;
+  left: 20px;
+  background-color: white;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #414548;
+}
+
+.form-group > input,
+.form-group > textarea {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border: 1px solid #414548;
+  border-radius: 5px;
+  padding: 0px 20px;
+  font-family: "Inter";
+  font-weight: 300;
+  color: #161b25;
+}
+
+.form-group > textarea {
+  height: 150px;
+  resize: none;
+  padding: 10px 20px;
+}
+
+.submit-btn {
+  width: 45%;
+  height: 40px;
+  border: 1px solid #414548;
+  border-radius: 5px;
+}
+
+.scroll-down {
+  cursor: pointer;
+  width: 150px;
+  margin: 75px auto;
+  text-align: center;
+}
+
+.scroll-down:hover {
+  transform: scale(1.05);
+  transition-duration: 500ms;
+}
+
+.scroll-down p {
+  margin-bottom: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #414548;
+}
+
+@media only screen and (max-width: 992px) {
+  .form-section {
+    padding: 50px 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-section {
+    padding: 50px 20px;
+  }
+
+  .form-container {
+    display: block;
+  }
+
+  .form-text p {
+    width: 95%;
+    margin-bottom: 40px;
+  }
+
+  .form-text,
+  .form {
+    width: 100%;
+  }
+}
