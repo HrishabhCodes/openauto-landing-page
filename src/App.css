@@ -35,7 +35,8 @@ input[type="number"]::-webkit-outer-spin-button {
 .scroll-down,
 .features-section,
 label,
-.btn {
+.btn,
+.download-app {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */

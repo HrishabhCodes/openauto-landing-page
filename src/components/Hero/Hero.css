@@ -60,7 +60,7 @@
 .download-app {
   position: absolute;
   left: 8%;
-  bottom: 10%;
+  bottom: 12%;
 }
 
 .download-app p {
@@ -80,6 +80,7 @@
   justify-content: space-between;
   align-items: center;
   width: 260px;
+  cursor: pointer;
 }
 
 .social-links {
@@ -91,9 +92,19 @@
   right: 7%;
 }
 
+.social-links img {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1170px) {
   .hero-text h1 {
     font-size: 54px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .download-app {
+    bottom: 7%;
   }
 }
 
