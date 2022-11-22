@@ -84,7 +84,6 @@
   width: 150px;
   margin: 75px auto;
   text-align: center;
-  
 }
 
 .scroll-down:hover {
@@ -127,7 +126,9 @@ hr {
   }
 
   .form-text h1 {
-    width: 85%;
+    width: 75%;
+    font-size: 42px;
+    line-height: 46px;
   }
 
   .form-text,

@@ -74,5 +74,8 @@
 @media only screen and (max-width: 728px) {
   .about-container h1 {
     margin-left: 10%;
+    width: 75%;
+    font-size: 42px;
+    line-height: 46px;
   }
 }

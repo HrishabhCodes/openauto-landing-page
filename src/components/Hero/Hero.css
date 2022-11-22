@@ -100,7 +100,6 @@
 @media only screen and (max-width: 800px) {
   .hero-section {
     display: block;
-    /* height: 120vh; */
   }
 
   .hero-text h1 {
@@ -160,5 +159,11 @@
 
   .social-links {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-text h1 {
+    width: 70%;
   }
 }
