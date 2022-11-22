@@ -71,6 +71,13 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .about-container h1 {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
 @media only screen and (max-width: 728px) {
   .about-container h1 {
     margin-left: 10%;
