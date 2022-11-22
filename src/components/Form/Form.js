@@ -22,17 +22,20 @@ const Form = () => {
           </p>
         </div>
         <form action="#" className="form">
-          <div class="form-group">
+          <div className="form-group">
             <label>Name</label>
-            <input name="name" type="text" class="form-control name" />
+            <input name="name" type="text" className="form-control name" />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label>Phone</label>
-            <input name="phone" type="number" class="form-control phone" />
+            <input name="phone" type="number" className="form-control phone" />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label>Message</label>
-            <textarea name="message" class="form-control message"></textarea>
+            <textarea
+              name="message"
+              className="form-control message"
+            ></textarea>
           </div>
           <button className="btn submit-btn" type="submit">
             Submit

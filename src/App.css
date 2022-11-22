@@ -31,3 +31,15 @@ input[type="number"]::-webkit-outer-spin-button {
   display: none;
   margin: 0;
 }
+
+.scroll-down,
+.features-section,
+label,
+.btn {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}

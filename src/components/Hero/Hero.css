@@ -1,3 +1,164 @@
 .hero-section {
-  padding: 0 75px;
+  position: relative;
+  padding: 20px 0 75px 0;
+  /* height: calc(100vh - 100px); */
+  width: 100%;
+  display: flex;
+}
+
+.hero-text {
+  padding: 6% 3% 0 8%;
+  width: 45%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.hero-text h1 {
+  font-family: "Public Sans";
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 70px;
+  color: #414548;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #414548;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  padding-right: 8%;
+  /* padding-bottom: 3%; */
+  width: 55%;
+}
+
+.hero-image .hero-banner {
+  display: block;
+  /* max-height: 100%; */
+  max-width: 95%;
+  width: auto;
+  height: auto;
+}
+
+.car-image {
+  position: absolute;
+  width: 50%;
+  /* bottom: 45px; */
+  bottom: -7%;
+  left: -15%;
+}
+
+.download-app {
+  position: absolute;
+  left: 8%;
+  bottom: 10%;
+}
+
+.download-app p {
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: #414548;
+}
+
+.play-store {
+  margin-top: 20px;
+}
+
+.store {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+}
+
+.social-links {
+  position: absolute;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  bottom: 35px;
+  right: 7%;
+}
+
+@media only screen and (max-width: 1170px) {
+  .hero-text h1 {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-section {
+    display: block;
+    /* height: 120vh; */
+  }
+
+  .hero-text h1 {
+    font-size: 42px;
+    line-height: 46px;
+    width: 55%;
+  }
+
+  .hero-text {
+    padding: 0 5%;
+    width: 100%;
+  }
+
+  .hero-text p {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #414548;
+  }
+
+  .hero-image {
+    justify-content: center;
+    padding-right: 0%;
+    width: 100%;
+  }
+
+  .hero-image .hero-banner {
+    max-width: 100%;
+  }
+
+  .car-image {
+    position: absolute;
+    width: 50%;
+    /* bottom: 45px; */
+    bottom: -7%;
+    left: -15%;
+  }
+
+  .download-app {
+    width: 90%;
+    position: static;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  .store {
+    margin: auto;
+    width: 250px;
+    text-align: center;
+  }
+
+  .play-store {
+    margin-top: 30px;
+  }
+
+  .social-links {
+    display: none;
+  }
 }
