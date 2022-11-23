@@ -14,7 +14,7 @@ const Hero = () => {
     <div className="hero-section">
       <div className="hero-text">
         <h1>
-          Delivered to <span>Your Door.</span>
+          Delivered to <br /> <span>Your Door.</span>
         </h1>
         <p>
           Contrary to popular belief, Lorem Ipsum is not simply random text. It

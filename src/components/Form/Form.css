@@ -14,7 +14,7 @@
 }
 
 .form-text h1 {
-  width: 65%;
+  width: 80%;
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 300;
@@ -109,7 +109,7 @@
   }
 
   .form-text h1 {
-    width: 75%;
+    width: 40%;
     font-size: 42px;
     line-height: 46px;
   }
@@ -121,5 +121,11 @@
 
   .submit-btn {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 466px) {
+  .form-text h1 {
+    width: 65%;
   }
 }

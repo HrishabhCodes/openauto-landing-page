@@ -32,7 +32,7 @@ const About = () => {
 
           <div className="about-container">
             <h1>
-              About <span>OpenAuto</span>
+              About <br /> <span>OpenAuto</span>
             </h1>
             <div className="about-text">
               <p className="text1">

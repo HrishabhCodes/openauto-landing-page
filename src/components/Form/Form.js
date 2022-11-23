@@ -15,7 +15,7 @@ const Form = () => {
       <div className="form-container">
         <div className="form-text">
           <h1>
-            We're All <span>Ears!</span>
+            We're All <br /> <span>Ears!</span>
           </h1>
           <p>
             If you have trouble managing your order, or want to talk to one of
