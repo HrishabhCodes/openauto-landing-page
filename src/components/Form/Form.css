@@ -14,7 +14,7 @@
 }
 
 .form-text h1 {
-  width: 80%;
+  width: 100%;
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 300;
@@ -81,6 +81,17 @@
   margin-bottom: 70px;
 }
 
+@media only screen and (min-width: 1024px) {
+  .form-text h1 {
+    font-size: 76px;
+    line-height: 75px;
+  }
+
+  .form-text p {
+    font-size: 18px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .form-section {
     padding: 0px 10%;
@@ -110,7 +121,7 @@
 
   .form-text h1 {
     width: 40%;
-    font-size: 42px;
+    font-size: 45px;
     line-height: 46px;
   }
 
@@ -126,6 +137,6 @@
 
 @media only screen and (max-width: 466px) {
   .form-text h1 {
-    width: 65%;
+    width: 95%;
   }
 }

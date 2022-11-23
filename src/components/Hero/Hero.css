@@ -6,8 +6,8 @@
 }
 
 .hero-text {
-  padding: 6% 5.5% 0 4.6%;
-  width: 45%;
+  padding: 6% 5.5% 0 4%;
+  width: 46%;
   display: flex;
   flex-direction: column;
 }
@@ -35,7 +35,7 @@
   justify-content: flex-end;
   position: relative;
   padding: 0 4.6%;
-  width: 55%;
+  width: 54%;
 }
 
 .hero-image .hero-banner {
@@ -85,7 +85,7 @@
   width: 100px;
   display: flex;
   justify-content: space-between;
-  bottom: 35px;
+  bottom: 28px;
   right: 7%;
 }
 
@@ -93,9 +93,25 @@
   cursor: pointer;
 }
 
+@media only screen and (min-width: 1024px) {
+  .hero-text h1 {
+    font-size: 76px;
+    line-height: 74px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+}
+
 @media only screen and (max-width: 1170px) {
   .hero-text h1 {
     font-size: 54px;
+    line-height: 53px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
   }
 }
 
@@ -127,9 +143,9 @@
   }
 
   .hero-text h1 {
-    font-size: 42px;
+    font-size: 45px;
     line-height: 46px;
-    width: 55%;
+    width: 60%;
   }
 
   .hero-text {
@@ -159,7 +175,6 @@
   .car-image {
     position: absolute;
     width: 50%;
-    /* bottom: 45px; */
     bottom: -7%;
     left: -15%;
   }
@@ -188,6 +203,6 @@
 
 @media only screen and (max-width: 500px) {
   .hero-text h1 {
-    width: 70%;
+    width: 90%;
   }
 }

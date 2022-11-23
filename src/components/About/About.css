@@ -88,6 +88,13 @@ hr {
   border: 1px solid #2a2a2a00;
 }
 
+@media only screen and (min-width: 1024px) {
+  .about-container h1 {
+    font-size: 76px;
+    line-height: 75px;
+  }
+}
+
 @media only screen and (max-width: 1047px) {
   .about-text {
     width: 70%;
@@ -100,7 +107,7 @@ hr {
 
 @media only screen and (max-width: 800px) {
   .about-container h1 {
-    font-size: 42px;
+    font-size: 45px;
     line-height: 46px;
     width: 55%;
   }

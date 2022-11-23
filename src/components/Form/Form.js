@@ -1,15 +1,7 @@
-// import React, { useRef } from "react";
 import React from "react";
 import "./Form.css";
-// import ScrollDown from "../../assets/ArrowBottom_icon.svg";
 
 const Form = () => {
-  // const formEnd = useRef();
-
-  // const scrollToAbout = () => {
-  //   formEnd.current.scrollIntoView();
-  // };
-
   return (
     <div className="form-section">
       <div className="form-container">
@@ -30,6 +22,7 @@ const Form = () => {
               name="name"
               type="text"
               className="form-control name"
+              required
             />
           </div>
           <div className="form-group">
