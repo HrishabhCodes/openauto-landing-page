@@ -1,5 +1,5 @@
 .navbar {
-  padding: 30px 75px;
+  padding: 30px 4.6%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,9 +18,5 @@
 @media only screen and (max-width: 600px) {
   .contact-btn {
     display: none;
-  }
-
-  .navbar {
-    padding: 30px 20px;
   }
 }

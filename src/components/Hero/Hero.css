@@ -1,16 +1,14 @@
 .hero-section {
   position: relative;
   padding: 20px 0 75px 0;
-  /* height: calc(100vh - 100px); */
   width: 100%;
   display: flex;
 }
 
 .hero-text {
-  padding: 6% 3% 0 8%;
+  padding: 6% 5.5% 0 4.6%;
   width: 45%;
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
 }
 
@@ -36,8 +34,7 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
-  padding-right: 8%;
-  /* padding-bottom: 3%; */
+  padding: 0 4.6%;
   width: 55%;
 }
 
@@ -59,14 +56,14 @@
 
 .download-app {
   position: absolute;
-  left: 8%;
+  left: 4.5%;
   bottom: 12%;
 }
 
 .download-app p {
   font-family: "Public Sans";
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   color: #414548;
 }
@@ -102,13 +99,29 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1170px) {
   .download-app {
-    bottom: 7%;
+    bottom: 2%;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
+  .car-image {
+    left: -10%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .download-app {
+    bottom: 0.1%;
+  }
+
+  .hero-text p {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 921px) {
   .hero-section {
     display: block;
   }
@@ -135,7 +148,7 @@
 
   .hero-image {
     justify-content: center;
-    padding-right: 0%;
+    padding: 0;
     width: 100%;
   }
 

@@ -1,9 +1,10 @@
-import React, { useRef } from "react";
+// import React, { useRef } from "react";
+import React from "react";
 import "./Form.css";
-import ScrollDown from "../../assets/ArrowBottom_icon.svg";
+// import ScrollDown from "../../assets/ArrowBottom_icon.svg";
 
 const Form = () => {
-  const formEnd = useRef();
+  // const formEnd = useRef();
 
   // const scrollToAbout = () => {
   //   formEnd.current.scrollIntoView();
@@ -24,7 +25,12 @@ const Form = () => {
         <form action="#" className="form">
           <div className="form-group">
             <label>Name</label>
-            <input name="name" type="text" className="form-control name" />
+            <input
+              placeholder="Your Full Name"
+              name="name"
+              type="text"
+              className="form-control name"
+            />
           </div>
           <div className="form-group">
             <label>Phone</label>
@@ -33,6 +39,8 @@ const Form = () => {
           <div className="form-group">
             <label>Message</label>
             <textarea
+              placeholder="Max 2000 characters"
+              maxLength={2000}
               name="message"
               className="form-control message"
             ></textarea>
@@ -42,14 +50,6 @@ const Form = () => {
           </button>
         </form>
       </div>
-      <div
-        onClick={() => formEnd.current.scrollIntoView()}
-        className="scroll-down"
-      >
-        <p>About OpenAuto</p>
-        <img className="scroll-img" src={ScrollDown} alt="scroll-down" />
-      </div>
-      <hr ref={formEnd} />
     </div>
   );
 };
