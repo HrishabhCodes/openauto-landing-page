@@ -1,27 +1,29 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import CheckMark from "../../assets/CheckMark.svg";
 import ScrollDown from "../../assets/ArrowBottom_icon.svg";
 import "./About.css";
 
-const About = () => {
-  const [hideAbout, sethideAbout] = useState(true);
+const About = ({ hideAbout, setHideAbout }) => {
+  // const [hideAbout, sethideAbout] = useState(true);
   const formEnd = useRef();
 
   const handleAbout = () => {
-    formEnd.current.scrollIntoView();
-    sethideAbout(false);
+    setTimeout(() => {
+      formEnd.current.scrollIntoView();
+    }, 0);
+    setHideAbout(false);
   };
 
   return (
     <>
-      <hr ref={formEnd} />
-
       {hideAbout && (
         <div onClick={handleAbout} className="scroll-down">
           <p>About OpenAuto</p>
           <img className="scroll-img" src={ScrollDown} alt="scroll-down" />
         </div>
       )}
+
+      <hr ref={formEnd} />
 
       {!hideAbout ? (
         <div className="about-section">

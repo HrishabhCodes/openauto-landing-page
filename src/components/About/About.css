@@ -62,6 +62,7 @@
 }
 
 .scroll-down {
+  position: sticky;
   cursor: pointer;
   width: 150px;
   margin: 75px auto;
@@ -84,7 +85,7 @@
 }
 
 hr {
-  border: 1px solid #00000000;
+  border: 1px solid #2a2a2a00;
 }
 
 @media only screen and (max-width: 1047px) {

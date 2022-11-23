@@ -5,16 +5,23 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Features from "./components/Features/Features";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [hideAbout, setHideAbout] = useState(true);
+
   return (
     <div className="app">
       <Navbar />
       <Hero />
       <Form />
-      <About />
-      <Features />
-      <Footer />
+      <About hideAbout={hideAbout} setHideAbout={setHideAbout} />
+      {!hideAbout && (
+        <>
+          <Features />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
