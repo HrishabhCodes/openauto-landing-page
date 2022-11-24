@@ -50,7 +50,7 @@ const About = ({ hideAbout, setHideAbout }) => {
                   <img src={CheckMark} alt="checkmark" />
                   No more endless piles of paper records.
                 </p>
-                <p className="point">
+                <p className="point last">
                   <img src={CheckMark} alt="checkmark" />
                   No more endless phone calls for updates on your vehicle.
                 </p>

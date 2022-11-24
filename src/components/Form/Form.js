@@ -112,13 +112,13 @@ const Form = () => {
             </FormLabel>
             <PhoneInput
               onChange={setPhone}
-              onBlur={() => {
-                if (phone === "") {
-                  setIsPhoneError("Required");
-                } else {
-                  setIsPhoneError("");
-                }
-              }}
+              // onBlur={() => {
+              //   if (phone === "") {
+              //     setIsPhoneError("Required");
+              //   } else {
+              //     setIsPhoneError("");
+              //   }
+              // }}
               style={
                 isPhoneError
                   ? { borderColor: "red" }

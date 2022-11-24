@@ -96,7 +96,7 @@
   height: 40px;
   border: 1.5px solid #4f535b;
   border-radius: 5px;
-  margin: 65px 0 70px 0;
+  margin: 55px 0 70px 0;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -107,6 +107,17 @@
 
   .form-text p {
     font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1361px) {
+  .form-text h1 {
+    font-size: 54px;
+    line-height: 53px;
+  }
+
+  .form-text p {
+    font-size: 16px;
   }
 }
 
@@ -123,7 +134,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 555px) {
   .form-section {
     padding: 0px 20px;
   }
